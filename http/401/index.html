@@ -5,10 +5,8 @@
     <title>401: Unauthorized / yEAh Network</title>
     <meta name="description" content="You are missing the required valid credentials to access the requested page or file on the yEAh Network (HTTP/401 Unauthorized).">
 
-{% include head.html %}
-<base target="_blank" />
-{% include top.html %}
-
+    {% remote_include https://raw.githubusercontent.com/yEAh-Games/yEAh-Games.github.io/main/_includes/head.html %}<base target="_blank" />
+    {% remote_include https://raw.githubusercontent.com/yEAh-Games/yEAh-Games.github.io/main/_includes/top.html %}
     <div class="site-content">
         <div class="atbs-block atbs-block--fullwidth atbs-section-module-404">
             <div class="atbs-block__inner text-center">
@@ -24,4 +22,4 @@
             </div>
         </div>
     </div><!-- .site-content -->
-{% include bottom.html %}
+    {% remote_include https://raw.githubusercontent.com/yEAh-Games/yEAh-Games.github.io/main/_includes/bottom.html %}
